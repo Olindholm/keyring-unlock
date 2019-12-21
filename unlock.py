@@ -21,7 +21,10 @@ password = ""
 #
 # The credentials requested are arbitrary, they are not of interest.
 def trigger_keyring_unlock_popup():
-    get_keyring_credential("service", "login")
+    try:
+        get_keyring_credential("service", "login")
+    except:
+        print("Keyring unlock popup closed! (cancelled)")
 
 
 # Create a thread to trigger the keyring unlock popup.
