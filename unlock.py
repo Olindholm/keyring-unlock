@@ -13,7 +13,19 @@ from keyring import get_credential as get_keyring_credential
 # is any program can read this file and your system is thus very
 # insecure. Make sure you take other security measures to insure
 # the safety of your system.
+#
+# If you use this script as intended, at bootup of system.
+# Sometimes it will be run before the desktop enviroment
+# has properly started, thus making it fail. Add a reasonable
+# delay to overcome this problem. Emperical testing can be used.
 password = ""
+boottime = 0 # Seconds
+
+# END OF CONFIGURATIONS! WARNING! DO NOT EDIT BELOW THIS LINE!
+
+# Small delay for the desktop enviroment
+# to have proper time to launch.
+time.sleep(boottime)
 
 
 # Triggers the keyring popup if the keyring is not unlocked already.
