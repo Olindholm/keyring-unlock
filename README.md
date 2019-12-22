@@ -16,7 +16,8 @@ This project was developed for Ubuntu (19.10) but will very likely work with oth
 
 So, this script was developed, as set to run automatically after the system has booted, and saves the annoying prompt of entering your keyring password once you launch applications as Goole Chrome or Steam.
 
-Do note the use of this script makes your system rather insecure and vulnerable. So make sure to take other security measures.
+| Warning! Your password will now be stored in plain text. That is any program can read this it and your system is thus very insecure. Make sure you take other security measures to insure the safety of your system.  |
+| --- |
 
 ---
 
@@ -59,7 +60,11 @@ cd keyring-unlock
 nano unlock.py
 ```
 
+| Warning! Your password will now be stored in plain text. That is any program can read this it and your system is thus very insecure. Make sure you take other security measures to insure the safety of your system.  |
+| --- |
+
 Now we edit the **password** and **boottime** at round around line 20. Set your password to the password used to unlock your keyring. The boottime can be left at 0 if you do not intend to run this script at boot. However if you do, set it to around 1-2 seconds if your system is fast, and 4-5 seconds if it's rather slow/old.
+
 ```python
 password = ""
 boottime = 0 # Seconds
@@ -81,6 +86,7 @@ python3 /home/<user/keyring-unlock/unlock.py
 ```
 | Note: In my experience the path has to be exact not relative. <br> I.e. it cannot be `~/keyring-unlock/unlock.py` |
 | --- |
+
 ![test image size](/imgs/2.png)
 
 Finally clikc **Add** to finalize the entry and click **Close** because you're finished! Now it should work, you can reboot the system to try.
