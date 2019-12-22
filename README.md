@@ -39,5 +39,5 @@ TODO: Describe how to install / setup your local environement / add link to demo
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright (c) 2019 Wiggy boy \<Lindholm\>\
+- Copyright &copy; 2019 Wiggy boy \<Lindholm\>\
   (formally known as Osvald Lindholm)
