@@ -77,7 +77,7 @@ python3 unlock.py
 
 So far if you've been running a debian based distro everything should've worked pretty easily, however that's about to change. You'll have to figure out exactly how to setup startup applications yourself if you're not running exactly Ubuntu (19.10) because the guide is getting very specific. However the process will by all likelyhood be very similiar and the **run script command should be almost if not exactly the same**.
 
-Launch the **Startup Applications Prefernces** via **Dash**, click the **Add** button on the top right.
+Launch the **Startup Applications Preferences** via the **Dash**, click the **Add** button on the top right.
 ![test image size](/imgs/1.png)
 
 Enter a name and comment to fit you. Then edit and enter the following command, i.e. change **\<user\>** to your linux username, or edit the whole path to where you placed the script in case you didn't go with the home directory.
@@ -89,7 +89,7 @@ python3 /home/<user/keyring-unlock/unlock.py
 
 ![test image size](/imgs/2.png)
 
-Finally clikc **Add** to finalize the entry and click **Close** because you're finished! Now it should work, you can reboot the system to try.
+Finally click **Add** to finalize the entry and click **Close** because you're finished! Now it should work, you can reboot the system to try.
 
 If it doesn't work, either by not seeming to do anything at all, or it leaving the password popup query, try increasing the **boottime** variable we configured previously.
 
