@@ -96,9 +96,4 @@ If it doesn't work, either by not seeming to do anything at all, or it leaving t
 ---
 
 ## License
-
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright &copy; 2019 Wiggy boy \<Lindholm\>\
-  (formally known as Osvald Lindholm)
+This project is licensed under the [MIT license](./LICENSE.md).

@@ -1,8 +1,7 @@
 The MIT License (MIT)
 =====================
 
-Copyright &copy; 2019 Wiggy boy \<Lindholm\>\
-(formally known as Osvald Lindholm)
+Copyright &copy; 2019 Osvald Lindholm
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
